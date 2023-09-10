@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <main class="grid-wrapper">
+      <header>
+        <nav>
+          <div class="hero">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <ul class="main-nav">
+            <li><a href="#">About</a></li>
+            <li><a href=".services">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a class="contacts reuse-contact" href="#">Contacts</a></li>
+          </ul>
+            <button class="hamburger_button">
+              <img src="./images/icon-hamburger.svg" alt="" />
+            </button>
+        </nav>
+        <div class="hamburger-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href=".services">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a class="hidden-menu-contact-bg-clr  reuse-contact" href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="header">
+          <h1>We are creatives</h1>
+          <img src="./images/icon-arrow-down.svg" alt="" />
+        </div>
+      </header>
+      <section class="services">
+        <div class="articles span">
+          <div class="d">
+            <h3 class="h3-decorations ff-fraunce">Transform your brand</h3>
+            <p class="text-decorations">
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <p class="learn-more-decoration ff-fraunce ">
+              <a class="underline-clr" href="#">Learn More</a>
+            </p>
+          </div>
+        </div>
+        <div class="images span">
+          <img src="./images/desktop/image-transform.jpg" class="desktop-imgs" alt="" />
+          <img src="./images/mobile/image-transform.jpg" class="mobile-imgs" alt="" />
+
+        </div>
+        <div class="images span">
+          <img src="./images/desktop/image-stand-out.jpg"  class="desktop-imgs" alt="" />
+          <img src="./images/mobile/image-stand-out.jpg"  class="mobile-imgs" alt="" />
+        </div>
+        <div class="articles span">
+          <div class="d">
+            <h3 class="h3-decorations ff-fraunce">
+              Stand out to the right audience
+            </h3>
+            <p class="text-decorations">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriter we'll build and
+              extent your brand in digital places.
+            </p>
+
+            <p class="learn-more-decoration ff-fraunce">
+              <a class="underline-clr" href="#">Learn More</a>
+            </p>
+          </div>
+        </div>
+        <!-- <div class="advertise bg-image-1">
+          <div class="advertise__position">
+            <h3 class="advertise__header">Graphic Design</h3>
+            <p  class="advertise_para">Great design makes you memorable. We deliver artwork that underscores your brand message
+              and captures potenial client's attention.
+            </p>
+          </div>
+          <img src="./images/desktop/cherry.jpg" alt="" />
+        </div>
+        <div class="advertise bg-image-2">
+          <div class="advertise__position">
+            <h3 class="advertise__header">photography</h3>
+            <p class="advertise_para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+              mollitia, sit deleniti ab ullam beatae necessitatibus quia.
+            </p>
+          </div>
+          <img src="./images/desktop/orange.jpg" alt="" />
+        </div> -->
+      </section>
+
+      <section class="testimonials">
+        <h2 class="client-testimonials ff-fraunce">client testimonials</h2>
+        <div class="clients-flexs">
+          <div class="reviews">
+            <img src="./images/image-emily.jpg" alt="" />
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit. Emily R.
+            </p>
+            <div class="clints-name">
+              <p class="name">emily R.</p>
+              <p class="profession">Marketing Director</p>
+            </div>
+          </div>
+          <div class="reviews">
+            <img src="./images/image-thomas.jpg" alt="" />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <div class="clints-name">
+              <p class="name">thomas s.</p>
+              <p class="profession">Chief operting officer</p>
+            </div>
+          </div>
+          <div class="reviews">
+            <img src="./images/image-jennie.jpg" alt="" />
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <div class="clints-name">
+              <p class="name">jennie f.</p>
+              <p class="profession">Business owner</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="desktop">
+        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
+        <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
+        <img src="/images/desktop/image-gallery-cone.jpg" alt="" />
+        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+      </section>
+      <section class="mobile">
+        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" />
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="" />
+        <img src="/images/mobile/image-gallery-cone.jpg" alt="" />
+        <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="flex-container">
+          <p class="footer-header">sunnyside</p>
+          <div class="links">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+          </div>
+          <div class="icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <section class="services">
+      <section></section>
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <section></section>
+    </section>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
